@@ -1,14 +1,19 @@
 package jp.momotown;
 
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
 public class RBStrikeCrawler {
 
+	public static WebDriver webDriver;
+
 	public RBStrikeCrawler() {
-		// TODO 自動生成されたコンストラクター・スタブ
 	}
 
 	public static void main(String[] args) {
-		// TODO 自動生成されたメソッド・スタブ
+		webDriver = new FirefoxDriver();
 
+		webDriver.quit();
 	}
 
 }
