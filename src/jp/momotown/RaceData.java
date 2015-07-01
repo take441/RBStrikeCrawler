@@ -1,9 +1,14 @@
 package jp.momotown;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class RaceData {
 
+	List<HorseData> horses;
+
 	public RaceData() {
-		// TODO 自動生成されたコンストラクター・スタブ
+		horses = new ArrayList<HorseData>();
 	}
 
 }

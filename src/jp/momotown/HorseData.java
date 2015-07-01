@@ -3,7 +3,7 @@ package jp.momotown;
 public class HorseData {
 
 	public String name;			// 馬名
-	public String coat_color;	// 毛色
+	public String coatColor;	// 毛色
 	public String sex;			// 性別
 	public int age;				// 年齢
 
